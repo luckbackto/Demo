@@ -27,4 +27,10 @@ public class PrincipalActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+    public void btVoltar(View v){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
 }

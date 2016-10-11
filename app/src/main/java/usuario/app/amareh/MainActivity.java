@@ -17,6 +17,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+    public void btCriar(View v){
+        Intent intent = new Intent(this, CriarActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
 
 
 

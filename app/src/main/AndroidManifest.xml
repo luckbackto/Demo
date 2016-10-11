@@ -18,7 +18,8 @@
         <activity android:name=".PrincipalActivity" />
         <activity android:name=".MaresActivity" />
         <activity android:name=".AgendamentoActivity" />
-        <activity android:name=".HistoricoActivity"></activity>
+        <activity android:name=".HistoricoActivity" />
+        <activity android:name=".CriarActivity"></activity>
     </application>
 
 </manifest>
